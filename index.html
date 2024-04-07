@@ -15,7 +15,33 @@
     <title>Free E-Book | Start Your Own Blog</title>
   </head>
   <body>
-    <h1>Ebook Website</h1>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark"> <!-- navbar-expand-lg to have the nav links change into a burger menu for smaller screens -->
+      <div class="container">
+        <!-- The logo -->
+        <a href="index.html" class="navbar-brand">  
+          <img src="images/logo.png" alt="" width="225" />
+        </a>
+        <!-- Burger menu button -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"> <!-- #navbarNavDropdown is the id to be able to open the dropdown menu -->
+          <span class="navbar-toggler-icon"></span> <!-- The three lines (burger menu icon) -->
+        </button>
+        <!-- Burger menu content -->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown"> <!-- navbarNavDropdown is the id to be able to open the dropdown menu -->
+          <ul class="navbar-nav ms-auto"> <!-- ms-auto to have the nabar links on the right (ms stands for margin start) -->
+            <li class="nav-item">
+              <a href="index.html" class="nav-link fw-semibold">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#details" class="nav-link fw-semibold">Details</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link btn btn-outline-light fw-semibold px-4 mx-4">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>

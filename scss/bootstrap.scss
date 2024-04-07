@@ -1,4 +1,31 @@
 // Font
 $font-family-sans-serif: 'Open Sans', sans-serif;
 
+// Colors
+$primary: #c167ef;
+$secondary: #10bcee;
+$dark: #2b3041;
+$light: #f3f6f9;
+
+// Navbar
+$navbar-padding-y: 1rem;    // To add more padding on the y axis for the navbar
+$navbar-dark-color: #fff;   // To change the color of the links
+$navbar-dark-hover-color: $secondary;   // To change the hover color of the links
+
+// Buttons
+$button-radius: 50px;       // Custom variable to overwrite the respective bootstrap classes (for all sizes (default, sm, lg) the same value is used)
+$button-padding-x: 30px;    // Custom variable to overwrite the respective bootstrap classes (for all sizes (default, sm, lg) the same value is used)
+$button-padding-y: 10px;    // Custom variable to overwrite the respective bootstrap classes (for all sizes (default, sm, lg) the same value is used)
+
+$btn-border-radius: $button-radius;
+$btn-border-radius-sm: $button-radius;
+$btn-border-radius-lg: $button-radius;
+$btn-padding-x: $button-padding-x;
+$btn-padding-x-sm: $button-padding-x;
+$btn-padding-x-lg: $button-padding-x;
+$btn-padding-y: $button-padding-y;
+$btn-padding-y-sm: $button-padding-y;
+$btn-padding-y-lg: $button-padding-y;
+$navbar-toggler-border-radius: 5px;     // To set the radius for the burger menu (button) back to the bootstrap default
+
 @import '../node_modules/bootstrap/scss/bootstrap';

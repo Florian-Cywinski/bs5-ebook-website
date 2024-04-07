@@ -1,0 +1,3 @@
+.navbar .btn-outline-light:hover {  /* To target the Contact button / link in the navbar */
+    color: var(--bs-dark);  /* To change the font color when hover over it - --bs-dark is a bootstrap variable ($dark in _variables.scss) */
+  }
