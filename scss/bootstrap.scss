@@ -28,4 +28,22 @@ $btn-padding-y-sm: $button-padding-y;
 $btn-padding-y-lg: $button-padding-y;
 $navbar-toggler-border-radius: 5px;     // To set the radius for the burger menu (button) back to the bootstrap default
 
+// Spacers - These spacer values are from bootstrap - It was added 6, 7 and 8 to the bootstrap default - Now it's possible to use e.g. mt-8 as class in index.html
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 6,
+  7: $spacer * 8,
+  8: $spacer * 12,
+) !default;
+
+
+$line-height-base: 1.7;   // To increase the line height
+$headings-margin-bottom: $spacer * 1;   // To set margin below headings to 1rem
+
 @import '../node_modules/bootstrap/scss/bootstrap';
