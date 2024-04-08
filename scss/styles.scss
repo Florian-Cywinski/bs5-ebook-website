@@ -16,6 +16,10 @@
     background-size: cover;
   }
 
+  .modal-dialog {
+    max-width: 1040px;  /* To have the modals a bit wider */
+  }
+
   @media (max-width: 1000px) {  /* To center the image and text from the hero part for viewports below 1001px */
     .hero .image-container {
       display: flex;
