@@ -20,6 +20,11 @@
     max-width: 1040px;  /* To have the modals a bit wider */
   }
 
+  .download {
+    background: url('../images/download-background.jpg') center center no-repeat;
+    background-size: cover;
+  }
+
   @media (max-width: 1000px) {  /* To center the image and text from the hero part for viewports below 1001px */
     .hero .image-container {
       display: flex;
