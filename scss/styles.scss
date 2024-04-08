@@ -2,6 +2,15 @@
     color: var(--bs-dark);  /* To change the font color when hover over it - --bs-dark is a bootstrap variable ($dark in _variables.scss) */
   }
 
+  .navbar-sticky {  /* When scrolling on he y axis > 50px */
+    opacity: 0.9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .navbar {
+    transition: all 0.5s ease-in-out; /* To have the effect of a changing the bg color (scroll > 50px) for the navbar with a transition */
+  }
+
   .header {
     background: url(../images/header-background.jpg) center center no-repeat;
     background-size: cover;
