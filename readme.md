@@ -2,7 +2,8 @@
 
 A Bootstrap website for downloading a free E-book - This website has a light, business-like design - From Brad Traversy's 'Bootstrap 5 From Scratch | Build 5 Modern Websites' course
 
-Try out the app :) - https://bs5-ebook-website.vercel.app/
+Try out the app :) - on Netlify: https://bs5-ebook-website-fc.netlify.app/  (with form submission on the Contact page)
+                   - on Vercel:  https://bs5-ebook-website.vercel.app/      (with form submission on the Contact page)
 
 <img src="./images/screen.png"  />
 
